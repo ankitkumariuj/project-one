@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <section class=" data-scroll-section">
     <div class="main">
         <div id="page">
     <nav>
 
         <img src="Sundown Studio/logo.svg" alt="">
 
-        <div class="listitem">
-            <ul>
-                <li>Work</li>
-                <li>Studio</li>
-                <li>Contact</li>
-            </ul>
+        <div class="btn1">
+
+            
+               <button><h4>Work</h4></button> 
+                <button> <h4>Studio</h4></button> 
+                <button> <h4>Contact</h4></button> 
+           
         </div>
     </nav>
 
@@ -34,6 +37,9 @@
         </div>
     </div>
 
+    <div class="space">
+        <div class="space1"></div>
+    </div>
     <div class="video">
 
         <video loop autoplay muted>
@@ -73,24 +79,86 @@
 
     </div>
 
-
+<div class="circle1"></div>
     <div class="block">
-        <div class="block1">
+        <div class="left">
     <h1>
-        We are a group of design-driven, goal-focused creators, producers, and designers who believe that the details make all the difference.
-We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and know that relationships are the most important things we build.
+        We are a group of design- <br>driven, goal-focused creators, <br> producers, and designers who <br>believe that the details make <br> all the difference.
     </h1>
         </div>
 
-        <div class="block1">
-            <div class="block2">
+        <div class="right">
+           
             <img src="Sundown Studio/nice.jpg" alt="">
             <p>We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and know that relationships are the most important things we build.</p>
         </div>
-        </div>
+        
     </div>
 </div>
 </div>
+
+<div class="feature-product">
+    <div class="gol"></div>
+    <h1>FEATURED PROJECTS</h1>
+</div>
+<div class="card">  
+    <div class="card1" onmouseover="come()" onmouseout="out()"  >
+        <div>
+        <h1>Makers Studio HOI</h1></div>
+         <div class="img" >
+            <img src="/Sundown Studio/im.webp" alt="" id="image1">
+        </div>
+        <div class="d1">
+        <p>Nike</p>
+        <span>Environment</span>
+        </div>
+       
+    </div>
+    <div class="card1" onmouseover="come2()" onmouseout="out2()">
+        <h1>50th Anniversary</h1>
+        <div class="d1">
+        <p>ARC'TERYX</p>
+        <span>Environment</span>
+        </div>
+    </div>
+    <div class="card1" onmouseover="come3()" onmouseout="out3()">
+        <h1>NYFW Popup</h1>
+        <div class="d1">
+        <p>Nike</p>
+        <span>Environment</span>
+        </div>
+    </div>
+
+<div class="btn">
+    <button><h4>All Project-></h4></button>
+</div>
+</div>
+
+
+<div class="service">
+    <div class="services-name">
+        <div class="tab">
+        <h2 onclick="imag1()">Design</h2>
+        <h2 onclick="image()">Project</h2>
+        <h2 onclick="imag()">Execution</h2>
+        </div>
+        <p id="para" >We’re with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience.</p>
+    </div>
+    <div class="gallery">
+        <img src="/Sundown Studio/imageX.webp" alt="" id="gallery">
+    </div>
+</div>
+
+
+<div class="coursol">
+ <div class="gol"></div>
+    <h1>We Are Needed </h1>
+</div>
+
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
